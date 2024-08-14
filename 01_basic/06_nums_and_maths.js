@@ -1,24 +1,25 @@
 const score = 400
 
 const balance = new Number(100)
-// console.log(balance);
+// console.log(balance);//[Number: 100]
 
-// console.log(balance.toString().length);
-// console.log(balance.toFixed(1));
+// console.log(balance.toString().length);//3
+// console.log(balance.toFixed(1));//up to one decimal
 
 const otherNumber = 123.8966
 
 // console.log(otherNumber.toPrecision(4));
 
-const hundreds = 1000000
-// console.log(hundreds.toLocaleString()); for us standard
-// console.log(hundreds.toLocaleString('en-IN'));
+const hundreds = 1234567
+// console.log(hundreds.toLocaleString('en-US')); //for US standard 
+// console.log(hundreds.toLocaleString('en-IN'));// for india
+
 
 
 //+++++++++++++++++++maths+++++++++++++++++
 
 
-// console.log(Math);
+// console.log(Math);//Object [Math] {}
 // console.log(Math.abs(-4));
 // console.log(Math.round(4.6));
 // console.log(Math.ceil(4.2));

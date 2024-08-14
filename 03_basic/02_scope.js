@@ -1,10 +1,11 @@
 
-//var c = 300
+// var c = 300
 
 let a =300
 if(true){
     let a = 10
     const b = 20
+    // var c = 300
     // console.log("Inner", a);
 }
 
@@ -17,12 +18,12 @@ function one(){
 
     function two(){
         const website = "youtube"
-        // console.log(username);
+        console.log(username);
     }
     // console.log(website)
     two()
 }
-one()
+// one()
 
 if(true){
     const username = "shreeram"
@@ -37,14 +38,14 @@ if(true){
 
 //**************** interesting ******** *
 
-console.log(addone(5));
+// console.log(addone(5));
 
-function addone(num){
+function addone(num){  // this is called function definition and it is hoisted.
     return num+1
 }
 
 
-// addTwo(5) produce error 
+//  addTwo(5) //produce error because expression is not hoisted , hoisted mean's function is available through out the entire scope
 const addTwo = function(num){
     return num + 2
 }

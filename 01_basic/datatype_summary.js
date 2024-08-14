@@ -9,10 +9,10 @@ const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
 
-const id = Symbol('123')
+const id = Symbol('123')// symbol function create unique symbol for each symbol()
 const anotherId = Symbol('123')
 
-// console.log(id==anotherId);
+// console.log(id==anotherId);// false
 
 // const bigNumber = 3456887983071n // n indicate BigInt
 
